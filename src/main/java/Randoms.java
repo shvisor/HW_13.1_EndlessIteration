@@ -12,7 +12,6 @@ public class Randoms implements Iterable<Integer> {
         this.max = max;
     }
 
-
     @Override
     public Iterator<Integer> iterator() {
         return new Iterator<Integer>() {
